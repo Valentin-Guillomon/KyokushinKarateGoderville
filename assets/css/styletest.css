@@ -1,0 +1,47 @@
+.home-header {
+ 
+  background-color: grey;
+  background-image: url("../img/accueil.jpg");
+  height: 1080px;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+.navbar-nav {
+  margin: auto;
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-m);
+  text-align: center;
+}
+
+.navbar-toggler {
+    border-radius: 25px;
+    margin-left: auto;
+}
+
+
+/* Elements */
+
+:root {
+    --burnt-umber: #862c31;
+    --licorice: #171615;
+    --spring-leaves: #5b8266;
+    --spring-wood: #f5f9ef;
+    --white: #ffffff;
+    --font-size-l: 22px;
+    --font-size-m: 20px;
+    --font-size-s: 18px;
+    --font-size-xl: 36px;
+    --font-size-xxl: 50px;
+    --font-size-xxxl: 51px;
+    --font-size-xxxxl: 55px;
+    --font-family-boucherieblock-regular: "BoucherieBlock-Regular", Helvetica;
+    --font-family-poppins: "Poppins", Helvetica;
+    --font-family-russo_one: "Russo One", Helvetica;
+  }
+  
