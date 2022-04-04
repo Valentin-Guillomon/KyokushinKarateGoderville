@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* fond-header */
+
+/* .fond {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  position: absolute;
+}
+
+.fond3 {
+  grid-area: 4 / 3 / 1 / 3;
+} */
+
+.calli {
+  z-index: 3;
+  width: 250px;
+  left: 25%;
+  position: absolute;
+}
+
+.fond-accueil {
+  background-color: var(--burnt-umber);
+  border-radius: 50px 0px 0px 50px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  width: 68%;
+  z-index: 2;
+}
+
+.image-1 {
+  z-index: 1;
+  height: 100%;
+  top: 0px;
+  object-fit: cover;
+  position: absolute;
+  width: 50em;
+  left: -15%;
+}
+
+
+/* navbar */
+
+.navbar {
+  z-index: 4;
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-l);
+  text-align: end;
+  margin-top: 30px;
+}
+
+.logo {
+  height: 100px;
+  width: 400px;
+  z-index: 3;
+  margin-top: 10px;
+  position: absolute;
+}
+
+/* Notre Club */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 16px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: var(--burnt-umber);
+  margin-bottom: 5%;
+}
+
+.item1 {
+  grid-column: 4 / 6;
+  grid-row: 2 / 2;
+}
+
+.item2 {
+  grid-column: 4 / 7;
+  grid-row: 3 / 7;
+}
+
+.p {
+  z-index: 3;
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-l);
+  color: rgb(255, 255, 255);
+}
+
+.h1 {
+  z-index: 3;
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xxl);
+  color: white;
+}
+
+/* Fond-Main */
+
+.citation {
+  background-color: var(--burnt-umber);
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xl);
+  color: white;
+}
+
+/* prof */
+
+.christelle {
+  border-radius: 266px;
+  height: 395px;
+  width: 395px;
+}
+
+.imgProf {
+  width: 50%;
+  align-self: center;
+}
+
+.nom {
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xl);
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.prof {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+}
+
+/* Cours */
+
+.cours {
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xxxl);
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+}
+
+.boy {
+  border-radius: 25px;
+}
+
+.card-title {
+  font-size: var(--font-size-xxl);
+  font-family: var(--font-family-russo_one);
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.coursText{
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+}
+
+.cour {
+  border: solid;
+  border-radius: 25px;
+}
+
+.bouton {
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-s);
+  background-color: var(--spring-leaves);
+}
+
+/* Boutique */
+
+.bg-boutique {
+  background-color: var(--burnt-umber);
+  position: absolute;
+}
+
+/* Elements */
+
+:root {
+  --burnt-umber: #862c31;
+  --licorice: #171615;
+  --spring-leaves: #5b8266;
+  --spring-wood: #f5f9ef;
+  --white: #ffffff;
+  --font-size-l: 24px;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xl: 36px;
+  --font-size-xxl: 50px;
+  --font-size-xxxl: 51px;
+  --font-size-xxxxl: 55px;
+  --font-family-boucherieblock-regular: "BoucherieBlock-Regular", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-russo_one: "Russo One", Helvetica;
+}
