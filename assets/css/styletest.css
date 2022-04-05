@@ -1,3 +1,5 @@
+/* home-header */
+
 .home-header {
  
   background-color: grey;
@@ -6,7 +8,6 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  position: absolute;
 }
 
 .nav {
@@ -14,8 +15,6 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
-  margin-inline: 50px;
 }
 
 .navbar {
@@ -40,8 +39,6 @@
   text-align: center;
 }
 
-
-
 .logo_grp {
   display: flex;
 }
@@ -57,6 +54,23 @@
 
 .calli {
   width: 300px;
+}
+
+/* Club */
+
+.club_grp {
+  position: absolute;
+  background: linear-gradient(75deg, #73cea3 0%, #6ec9b2 100%);
+  background-size: cover;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  color: rgb(0, 0, 0);
+  padding: 100px;
+}
+.club_title {
+  margin-bottom: 50px;
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xl);
 }
 
 /* Elements */
