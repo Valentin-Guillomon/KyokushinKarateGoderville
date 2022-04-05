@@ -59,7 +59,6 @@
 /* Club */
 
 .club_grp {
-  position: absolute;
   background: linear-gradient(75deg, #73cea3 0%, #6ec9b2 100%);
   background-size: cover;
   font-family: var(--font-family-poppins);
@@ -71,6 +70,36 @@
   margin-bottom: 50px;
   font-family: var(--font-family-russo_one);
   font-size: var(--font-size-xl);
+}
+
+/* Prof */
+
+.prof_grp {
+  margin-top: 150px;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+}
+
+.prof {
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xl);
+  text-align: center;
+}
+.card {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+
+.nom {
+  padding: 50px;
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xl);
+  text-align: center;
+}
+
+.imgProf {
+  width: 300px;
 }
 
 /* Elements */
