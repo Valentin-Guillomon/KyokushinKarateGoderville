@@ -1,29 +1,57 @@
 .home-header {
  
   background-color: grey;
-  background-image: url("../img/accueil.jpg");
-  height: 1080px;
+  background-image: url("../img/accueil_v3.jpg");
+  height: 890px;
+  width: 100%;
   background-size: cover;
   background-position: center;
+  position: absolute;
+}
+
+.nav {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-inline: 50px;
 }
 
 .navbar {
-  border-radius: 25px;
-  margin-top: 50px;
+  border-radius: 45px;
+  height: 50px;
+  background: linear-gradient(75deg, #73cea3 0%, #6ec9b2 100%);
 }
 
 .navbar-nav {
   margin: auto;
   font-family: var(--font-family-russo_one);
-  font-size: var(--font-size-m);
+  font-size: 0.8rem;
   text-align: center;
 }
 
 .navbar-toggler {
-    border-radius: 25px;
+    border-radius: 15px;
     margin-left: auto;
 }
 
+.logo_grp {
+  display: flex;
+}
+
+.logo {
+    width: 60%;
+  }
+
+.calli_grp {
+ display: flex;
+ justify-content: center;
+}
+
+.calli {
+  width: 300px;
+}
 
 /* Elements */
 
