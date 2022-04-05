@@ -122,6 +122,45 @@
   margin-top: 30px;
 }
 
+/* Cours */
+
+.cours_grp {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+}
+
+.cours {
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xxl);
+  text-align: center;
+  margin-top: 70px;
+}
+
+.title {
+  font-family: var(--font-family-russo_one);
+  font-size: var(--font-size-xl);
+  color: white;
+  text-align: center;
+}
+
+.boy {
+  border-radius: 25px;
+}
+
+/* .cour {
+  border: solid 2px var(--burnt-umber);
+  border-radius: 25px;
+  margin-top: 30px;
+} */
+
+.bouton {
+  background: linear-gradient(75deg, #73cea3 0%, #6ec9b2 100%);
+  border: none;
+  border-radius: 45px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 /* Elements */
 
 :root {
